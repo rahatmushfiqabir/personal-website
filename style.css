@@ -214,5 +214,47 @@ section{
     height:50%;
 }
 
+.service-area{
+    background-color:white ;
+    height: 700px;
+}
+
+#web{
+
+     margin-left: 70px;
+     border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(35, 139, 3),rgb(55, 219, 5));
+    border-image-slice: 1;
+    
+}
+
+#it{
+    margin-left: 30px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan );
+    border-image-slice: 1;
+}
+
+#word{
+    margin-left: 30px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(238, 36, 160),rgb(252, 139, 10) );
+    border-image-slice: 1;
+}
+
+.onwidth{
+    background-color:white;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 25%;
+    float: left;
+    padding:  25px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.onwidth img{
+    width: 100%;
+    border-radius: 10px;
+}
 
 
